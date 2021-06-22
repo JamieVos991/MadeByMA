@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(51, 51, 51);
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* navigatie */
+nav {
+    background-color: darkslategray;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li ul a {
+    letter-spacing: 5px;
+}
+
+nav li {
+    flex: 1 0 330px;
+}
+
+nav li + li {
+    border-left: solid 2px white;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+.header {
+    padding: 2em;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+    background-image: url(afb/Untitled-1.jpg);
+    /*background-color: grey;*/
+    background-position: center;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.richtpunt {
+    position: relative;
+    top: -55px;
+    /* visibility: hidden; */
+    /* border: 2px solid red; */
+}
+section {
+    background-color: white;
+    padding-bottom: 20px;
+    margin-bottom: 20px; 
+}
+section header {
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+#voor header {
+    /*background-image: url(/afb/interactieve-video.jpg);*/
+    background-color: red;
+}
+#hoofd header {
+    background-image: url(afb/interactieve-video.jpg);
+    /*background-color: grey;*/
+    height: 200px;
+}
+#bij header {
+    background-image: url(afb/IMG_3690-1-scaled.webp);
+    /*background-color: grey;*/
+    height: 200px;
+}
+#na header {
+    /*background-image: url(/afb/2560x1440a.jpg);*/
+    background-color: blue;
+}
+h1, h2, h4 {
+    color: white;
+    text-align: center; 
+    text-shadow: 0 0 13px darkslategrey; 
+    letter-spacing: 7px;
+}
+
+h4 {
+    font-variant: small-caps;
+}
+h6 {
+    margin-bottom: -25px;
+    font-size: 20px;
+}
+
+section ol {
+    margin: 20px 60px;
+}
+section p, section h6 {
+    padding: 0px 90px
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    margin-top: -5px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+/* de footer  */
+
+footer {
+    background-color: darkslategrey;
+    color: floralwhite;
+    text-align: center;
+    padding: 20px;
+    height: 20%;
+}
+footer p {
+    color: floralwhite;
+    font-size: 16px;
+    letter-spacing: 2px;
+
+}
+
+/* de validatie-icons  */
+.validatie img {
+    height: 1em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+}
+
+@media (max-width: 1000px) {
+    nav li + li {
+        display: none;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    nav a:hover {
+        background-color: transparent;
+    }
+
+    section ol li {
+        margin-left: -60px;
+        font-size: 16px;
+        justify-content: center;
+    }
+    
+}
