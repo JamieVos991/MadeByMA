@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
-/* * {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+} 
 
 html {
     scroll-behavior: smooth;
+    width: 100%;
 }
 
 body {
@@ -54,6 +55,7 @@ nav li + li {
     border-left: solid 1px white;
     height: 100%;
 }
+
 nav a {
     color: white;
     text-decoration: none;
@@ -84,8 +86,8 @@ nav li:hover {
     background-image: url(../afb/Header.jpg);
     /*background-color: grey;*/
     background-position: center;
-    /*background-repeat: no-repeat;*/
-    height: 215px;
+    background-repeat: no-repeat;
+    height: 300px;
 }
 
 #voor header {
@@ -171,7 +173,7 @@ footer {
     color: floralwhite;
     text-align: center;
     padding: 20px;
-    height: 40%;
+    height: 100px;
     width: 100%;
 }
 
@@ -179,10 +181,12 @@ footer p {
     color: floralwhite;
     font-size: 16px;
     letter-spacing: 2px;
-
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
-/* Footer Einde */
+/* Footer Einde */ 
 
 
 .richtpunt {
