@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 html {
     scroll-behavior: smooth;
 }
+
 body {
     padding: 0;
     margin: 0;
@@ -59,20 +65,11 @@ nav a:hover {
     text-align: center;
     font-size: 30px;
     color: whitesmoke;
-    background-image: url(/afb/Schermafbeelding\ 2021-06-23\ 141308.jpg);
+    background-image: url(/afb/Header.jpg);
     /*background-color: grey;*/
     background-position: center;
-    height: 250px;
-}
-
-.header h1 {
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, white 0%, grey 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    height: 350px;
 }
 
 main {
@@ -103,12 +100,12 @@ section header {
     background-color: red;
 }
 #hoofd header {
-    background-image: url(/afb/interactieve-video.jpg);
+    background-image: url(/afb/IAVideo.jpg);
     /*background-color: grey;*/
     height: 200px;
 }
 #bij header {
-    background-image: url(/afb/IMG_3690-1-scaled.webp);
+    background-image: url(/afb/Politie.webp);
     /*background-color: grey;*/
     height: 200px;
 }
