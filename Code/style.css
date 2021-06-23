@@ -190,7 +190,6 @@ footer p {
 /* Footer Einde */
 
 
-/* de validatie-icons  */
 .validatie img {
     height: 1em;
     width: auto;
@@ -207,7 +206,7 @@ footer p {
         display: flex;
     }
 
-    nav a:hover {
+    nav li:hover {
         background-color: transparent;
     }
 
@@ -215,6 +214,11 @@ footer p {
         margin-left: -60px;
         font-size: 16px;
         justify-content: center;
+    }
+
+    footer p {
+        margin-left: -35px;
+        font-size: 10px;
     }
     
 }
