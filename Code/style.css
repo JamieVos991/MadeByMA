@@ -18,6 +18,12 @@ body {
     font-size: 26px;
 }
 
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
 
 /* Nav */
 
@@ -109,50 +115,32 @@ nav li:hover {
 /* Header Einde */
 
 
-main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 30px;
-}
+/* Sections */
 
-.richtpunt {
-    position: relative;
-    top: -55px;
-    /* visibility: hidden; */
-    /* border: 2px solid red; */
-}
 section {
     background-color: white;
     padding-bottom: 20px;
     margin-bottom: 20px; 
 }
+
 section header {
     background-size: cover;
     background-position: center;
     padding: 30px;
 }
 
-h2, h4 {
-    color: white;
-    text-align: center; 
-    text-shadow: 0 0 13px darkslategrey; 
-    letter-spacing: 7px;
-}
-
-h4 {
-    font-variant: small-caps;
-}
-h6 {
-    margin-bottom: -25px;
-    font-size: 20px;
-}
-
 section ol {
     margin: 20px 60px;
 }
+
 section p, section h6 {
     padding: 0px 90px
 }
+
+/* Section Einde */
+
+
+/* Toggle Button */
 
 .toggle-button .bar {
     height: 3px;
@@ -172,6 +160,8 @@ section p, section h6 {
     width: 30px;
     height: 21px;
 }
+
+/* Toggle Button Einde 
 
 
 /* Footer  */
@@ -195,13 +185,22 @@ footer p {
 /* Footer Einde */
 
 
-/* de validatie-icons  */
+.richtpunt {
+    position: relative;
+    top: -55px;
+    /* visibility: hidden; */
+    /* border: 2px solid red; */
+}
+
 .validatie img {
     height: 1em;
     width: auto;
     border: 0;
     margin: 0 .3em;
 }
+
+
+/* Media Querry */
 
 @media (max-width: 1000px) {
     nav li + li {
@@ -223,3 +222,5 @@ footer p {
     }
     
 }
+
+/* Media Querry Einde */
