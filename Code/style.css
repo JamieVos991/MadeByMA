@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+}*/
 
 html {
     scroll-behavior: smooth;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
 }
 
 body {
@@ -18,7 +24,9 @@ body {
     font-size: 26px;
 }
 
-/* navigatie */
+
+/* Nav */
+
 nav {
     background-color: rgb(51, 51, 51);
     position: sticky;
@@ -59,23 +67,19 @@ nav a:hover {
     color: white;
 }
 
+/* Nav Einde */
+
+
 .header {
     padding: 2em;
     margin: 0;
     text-align: center;
     font-size: 30px;
     color: whitesmoke;
-    background-image: url(/afb/Header.jpg);
+    background-image: url(../afb/Header.jpg);
     /*background-color: grey;*/
     background-position: center;
-    background-repeat: no-repeat;
     height: 350px;
-}
-
-main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 30px;
 }
 
 .richtpunt {
@@ -100,13 +104,11 @@ section header {
     background-color: red;
 }
 #hoofd header {
-    background-image: url(/afb/IAVideo.jpg);
-    /*background-color: grey;*/
+    background-image: url(../afb/IAVideo.jpg);
     height: 200px;
 }
 #bij header {
-    background-image: url(/afb/Politie.webp);
-    /*background-color: grey;*/
+    background-image: url(../afb/Politie.webp);
     height: 200px;
 }
 #na header {
@@ -161,7 +163,7 @@ footer {
     color: floralwhite;
     text-align: center;
     padding: 20px;
-    height: 20%;
+    height: 40%;
 }
 footer p {
     color: floralwhite;

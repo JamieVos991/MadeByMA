@@ -1,4 +1,4 @@
-const menuBtn = document.querySelector('.burger-nav');
+/*const menuBtn = document.querySelector('.burger-nav');
 let menuOpen = false;
 menuBtn.addEventListener('click', () => {
   if(menuOpen) {
@@ -9,3 +9,4 @@ menuBtn.addEventListener('click', () => {
   }
 });
 
+*/
