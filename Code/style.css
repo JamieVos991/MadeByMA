@@ -8,15 +8,16 @@ body {
     padding: 0;
     margin: 0;
     background-color: rgb(51, 51, 51);
+    font-family: 'Kumbh Sans', sans-serif;
     font-size: 26px;
-    font-family: 'Roboto', sans-serif;
 }
 
 /* navigatie */
 nav {
-    background-color: darkslategray;
+    background-color: rgb(51, 51, 51);
     position: sticky;
     top: 0;
+    height: 50px;
 }
 
 nav ul {
@@ -42,7 +43,9 @@ nav a {
     text-decoration: none;
     display: block;
     padding: 10px;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
+    letter-spacing: 4px;
 }
 
 nav a:hover {
@@ -56,9 +59,20 @@ nav a:hover {
     text-align: center;
     font-size: 30px;
     color: whitesmoke;
-    background-image: url(afb/Untitled-1.jpg);
+    background-image: url(/afb/Schermafbeelding\ 2021-06-23\ 141308.jpg);
     /*background-color: grey;*/
     background-position: center;
+    height: 250px;
+}
+
+.header h1 {
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, white 0%, grey 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 }
 
 main {
@@ -102,7 +116,7 @@ section header {
     /*background-image: url(/afb/2560x1440a.jpg);*/
     background-color: blue;
 }
-h1, h2, h4 {
+h2, h4 {
     color: white;
     text-align: center; 
     text-shadow: 0 0 13px darkslategrey; 
@@ -146,7 +160,7 @@ section p, section h6 {
 /* de footer  */
 
 footer {
-    background-color: darkslategrey;
+    background-color: rgb(37, 37, 37);
     color: floralwhite;
     text-align: center;
     padding: 20px;
