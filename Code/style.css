@@ -89,12 +89,12 @@ section header {
     background-color: red;
 }
 #hoofd header {
-    background-image: url(afb/interactieve-video.jpg);
+    background-image: url(/afb/interactieve-video.jpg);
     /*background-color: grey;*/
     height: 200px;
 }
 #bij header {
-    background-image: url(afb/IMG_3690-1-scaled.webp);
+    background-image: url(/afb/IMG_3690-1-scaled.webp);
     /*background-color: grey;*/
     height: 200px;
 }
