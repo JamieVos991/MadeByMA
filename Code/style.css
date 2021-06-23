@@ -22,7 +22,7 @@ body {
 /* Nav */
 
 nav {
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(37, 37, 37);
     position: sticky;
     top: 0;
    
@@ -83,22 +83,27 @@ nav li:hover {
 }
 
 #voor header {
-    /*background-image: url(/afb/interactieve-video.jpg);*/
-    background-color: red;
+    /*background-image: url(../afb/Drillrap.jpg);*/
+    background-color: red; 
+    height: 500px;
 }
+
 #hoofd header {
-    background-image: url(../afb/IAVideo.jpg);
-    /*background-color: grey;*/
+    /*background-image: url(../afb/IAVideo.jpg);*/
+    background-color: orange;
     height: 500px;
 }
+
 #bij header {
-    background-image: url(../afb/Politie.webp);
-    /*background-color: grey;*/
+    /*background-image: url(../afb/Politie.webp);*/
+    background-color: yellow;
     height: 500px;
 }
+
 #na header {
     /*background-image: url(/afb/2560x1440a.jpg);*/
-    background-color: blue;
+    background-color: green;
+    height: 500px;
 }
 
 /* Header Einde */
