@@ -4,16 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}*/
+} */
 
 html {
     scroll-behavior: smooth;
-}
-
-main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 30px;
 }
 
 body {
@@ -31,7 +25,7 @@ nav {
     background-color: rgb(51, 51, 51);
     position: sticky;
     top: 0;
-    height: 50px;
+   
 }
 
 nav ul {
@@ -39,6 +33,7 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
+    height: 74px;
 }
 
 nav li ul a {
@@ -50,7 +45,8 @@ nav li {
 }
 
 nav li + li {
-    border-left: solid 2px white;
+    border-left: solid 1px white;
+    height: 100%;
 }
 nav a {
     color: white;
@@ -60,15 +56,18 @@ nav a {
     font-family: 'Poppins', sans-serif;
     text-align: center;
     letter-spacing: 4px;
+    margin-top: 10px;
 }
 
-nav a:hover {
+nav li:hover {
     background-color: black;
     color: white;
 }
 
 /* Nav Einde */
 
+
+/* Header */ 
 
 .header {
     padding: 2em;
@@ -79,7 +78,36 @@ nav a:hover {
     background-image: url(../afb/Header.jpg);
     /*background-color: grey;*/
     background-position: center;
-    height: 350px;
+    /*background-repeat: no-repeat;*/
+    height: 215px;
+}
+
+#voor header {
+    /*background-image: url(/afb/interactieve-video.jpg);*/
+    background-color: red;
+}
+#hoofd header {
+    background-image: url(../afb/IAVideo.jpg);
+    /*background-color: grey;*/
+    height: 500px;
+}
+#bij header {
+    background-image: url(../afb/Politie.webp);
+    /*background-color: grey;*/
+    height: 500px;
+}
+#na header {
+    /*background-image: url(/afb/2560x1440a.jpg);*/
+    background-color: blue;
+}
+
+/* Header Einde */
+
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
 }
 
 .richtpunt {
@@ -99,22 +127,6 @@ section header {
     padding: 30px;
 }
 
-#voor header {
-    /*background-image: url(/afb/interactieve-video.jpg);*/
-    background-color: red;
-}
-#hoofd header {
-    background-image: url(../afb/IAVideo.jpg);
-    height: 200px;
-}
-#bij header {
-    background-image: url(../afb/Politie.webp);
-    height: 200px;
-}
-#na header {
-    /*background-image: url(/afb/2560x1440a.jpg);*/
-    background-color: blue;
-}
 h2, h4 {
     color: white;
     text-align: center; 
@@ -156,7 +168,8 @@ section p, section h6 {
     height: 21px;
 }
 
-/* de footer  */
+
+/* Footer  */
 
 footer {
     background-color: rgb(37, 37, 37);
@@ -164,13 +177,18 @@ footer {
     text-align: center;
     padding: 20px;
     height: 40%;
+    width: 100%;
 }
+
 footer p {
     color: floralwhite;
     font-size: 16px;
     letter-spacing: 2px;
 
 }
+
+/* Footer Einde */
+
 
 /* de validatie-icons  */
 .validatie img {
