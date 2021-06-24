@@ -142,30 +142,6 @@ section p, section h6 {
 /* Section Einde */
 
 
-/* Toggle Button */
-
-.toggle-button .bar {
-    height: 3px;
-    width: 100%;
-    background-color: white;
-    border-radius: 10px;
-}
-
-.toggle-button {
-    position: absolute;
-    top: .75rem;
-    right: 1rem;
-    margin-top: -5px;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
-}
-
-/* Toggle Button Einde 
-
-
 /* Footer  */
 
 footer {
@@ -211,10 +187,6 @@ footer p {
         display: none;
     }
 
-    .toggle-button {
-        display: flex;
-    }
-
     nav a:hover {
         background-color: transparent;
     }
@@ -224,7 +196,6 @@ footer p {
         font-size: 16px;
         justify-content: center;
     }
-    
 }
 
 /* Media Querry Einde */
