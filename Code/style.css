@@ -91,26 +91,32 @@ nav li:hover {
 }
 
 #Drill header {
-    /*background-image: url(../afb/Drillrap.jpg);*/
-    background-color: red; 
+    background-image: url(../afb/Drillrap.jpg);
+    /*background-color: red;*/
     height: 500px;
 }
 
 #IAV header {
-    /*background-image: url(../afb/IAVideo.jpg);*/
-    background-color: orange;
+    background-image: url(../afb/IAVideo.jpg);
+    /*background-color: orange;*/
     height: 500px;
 }
 
 #PolitieZO header {
-    /*background-image: url(../afb/Politie.webp);*/
-    background-color: yellow;
+    background-image: url(../afb/Politie.webp);
+    /*background-color: yellow;*/
+    height: 500px;
+}
+
+#BHTS header {
+    /*background-image: url(/afb/2560x1440a.jpg);*/
+    background-color: green;
     height: 500px;
 }
 
 #Contact header {
-    /*background-image: url(/afb/2560x1440a.jpg);*/
-    background-color: green;
+    background-image: url(../afb/Contact2.jpg);
+    /*background-color: blue;*/
     height: 500px;
 }
 
@@ -197,4 +203,10 @@ footer p {
     
 }
 
+@media (max-width: 700px) {
+
+    #PolitieZO p { 
+        font-size: 12px;
+    }
+}
 /* Media Querry Einde */
