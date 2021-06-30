@@ -80,44 +80,48 @@ nav li:hover {
 .header {
     padding: 2em;
     margin: 0;
-    text-align: center;
-    font-size: 30px;
-    color: whitesmoke;
+    background-color: #313131;
     background-image: url(../afb/Header.jpg);
-    /*background-color: grey;*/
+    max-width: 100%;
     background-position: center;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     height: 300px;
 }
 
 #Drill header {
-    background-image: url(../afb/IMG_1594-2.jpg);
+    background-image: url(../Afb/IMG_1596-2.jpg);
+    /*background-image: url(../Afb/DrillrapHeader.jpg);*/
     /*background-color: red;*/
     height: 500px;
 }
 
 #IAV header {
-    background-image: url(../afb/IAVideo.jpg);
+    background-image: url(../Afb/IMG_1661-2.jpg);
+    /* background-image: url(../Afb/IAVideo.jpg); */
     /*background-color: orange;*/
     height: 500px;
 }
 
 #PolitieZO header {
-    background-image: url(../afb/Politie.webp);
+    background-image: url(../Afb/Politie.webp);
     /*background-color: yellow;*/
     height: 500px;
 }
 
 #BHTS header {
-    /*background-image: url(/afb/2560x1440a.jpg);*/
     background-color: green;
     height: 500px;
 }
 
 #Contact header {
-    background-image: url(../afb/Contact2.jpg);
+    background-image: url(../Afb/Contact.jpg);
     /*background-color: blue;*/
     height: 500px;
+}
+
+#Contact p a { 
+    text-decoration: none;
+    margin-left: -50px;
 }
 
 /* Header Einde */
@@ -138,7 +142,7 @@ section header {
 }
 
 section ol {
-    margin: 20px 60px;
+    margin-top: 20px;
 }
 
 section p, section h6 {
@@ -178,13 +182,6 @@ footer p {
     /* border: 2px solid red; */
 }
 
-.validatie img {
-    height: 1em;
-    width: auto;
-    border: 0;
-    margin: 0 .3em;
-} 
-
 
 /* Media Querry */
 
@@ -205,8 +202,29 @@ footer p {
 
 @media (max-width: 700px) {
 
+    #Drill p {
+        margin-left: -20px;
+        font-size: 19px;
+        text-align: justify;
+    }
+
     #PolitieZO p { 
-        font-size: 12px;
+        margin-left: -20px;
+        font-size: 19px;
+        text-align: justify;
+    }
+
+    #Contact p {
+        align-items: justify;
+        justify-content: stretch;
+        font-size: 20px;
     }
 }
+
+@media (min-width: 700px) {
+    section ol {
+        margin: 20px 60px;
+    }
+}
+
 /* Media Querry Einde */
