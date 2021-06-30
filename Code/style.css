@@ -96,7 +96,7 @@ nav li:hover {
 }
 
 #IAV header {
-    background-image: url(../Afb/IMG_1661-2.jpg);
+    background-image: url(../Afb/IMG_1648-2.jpg);
     /* background-image: url(../Afb/IAVideo.jpg); */
     /*background-color: orange;*/
     height: 500px;
@@ -109,7 +109,8 @@ nav li:hover {
 }
 
 #BHTS header {
-    background-color: green;
+    background-image: url(../afb/Schermafbeelding\ 2021-06-30\ 121015.png);
+    /* background-color: green; */
     height: 500px;
 }
 
@@ -146,7 +147,7 @@ section ol {
 }
 
 section p, section h6 {
-    padding: 0px 90px
+    padding: 0px 40px
 }
 
 /* Section Einde */
@@ -215,9 +216,8 @@ footer p {
     }
 
     #Contact p {
-        align-items: justify;
-        justify-content: stretch;
-        font-size: 20px;
+        font-size: 20px; 
+        margin-left:40px;
     }
 }
 
