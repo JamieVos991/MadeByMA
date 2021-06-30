@@ -249,6 +249,7 @@ footer p {
     #BHTS .BehindTS {
         display: flex;
         justify-content: center;
+        font-size: 26px;
     }
 
     #Contact p {
