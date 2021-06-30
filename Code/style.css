@@ -95,6 +95,12 @@ nav li:hover {
     height: 500px;
 }
 
+#Drill .DP {
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
 #IAV header {
     background-image: url(../Afbeeldingen/IAV.jpg);
     /* background-image: url(../Afb/IAVideo.jpg); */
@@ -108,10 +114,22 @@ nav li:hover {
     height: 500px;
 }
 
+#PolitieZO .WJD {
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
 #BHTS header {
     background-image: url(../Afbeeldingen/BHTS.JPG);
     /* background-color: green; */
     height: 500px;
+}
+
+#BHTS .BehindTS {
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 3px;
 }
 
 #Contact header {
@@ -120,9 +138,10 @@ nav li:hover {
     height: 500px;
 }
 
-#Contact p a { 
-    text-decoration: none;
-    margin-left: -50px;
+#Contact .CT {
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 3px;
 }
 
 /* Header Einde */
@@ -208,14 +227,37 @@ footer p {
         text-align: justify;
     }
 
+    #Drill .DP {
+        display: flex;
+        justify-content: center;
+    }
+
     #PolitieZO p { 
         font-size: 19px;
         text-align: justify;
     }
 
+    #PolitieZO .WJD {
+        display: flex;
+        justify-content: center;
+    }
+
+    #BHTS p {
+        font-size: 19px; 
+    }
+
+    #BHTS .BehindTS {
+        display: flex;
+        justify-content: center;
+    }
+
     #Contact p {
         font-size: 20px; 
-        margin-left:40px;
+    }
+
+    #Contact .CT {
+        display: flex;
+        justify-content: center;
     }
 }
 
