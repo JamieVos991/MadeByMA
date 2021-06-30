@@ -109,8 +109,8 @@ nav li:hover {
 }
 
 #BHTS header {
-    background-image: url(../afb/Schermafbeelding\ 2021-06-30\ 121015.png);
-    /* background-color: green; */
+    /* background-image: url(../afb/Schermafbeelding\ 2021-06-30\ 121015.png); */
+    background-color: green;
     height: 500px;
 }
 
